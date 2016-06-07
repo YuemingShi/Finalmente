@@ -3,7 +3,7 @@ Welcome to the final.  Each question is in a seperate file.  Answer all question
 11111111111111
 Consider the following Java class.
 
-public class Wizard{
+public class Wizard implements HahaItsme{
 
   Spell[] spells;
   Potion[] potions;
@@ -16,7 +16,31 @@ public class Wizard{
 }
 
 A.  Write a method for the Wizard class named "powerUp" that adds 10 to the field "points".
+public void powerUp(){
+    this.points = this.points + 10;
+  }
+
+
 B.  Write a method "cast" that casts the n-th element of the "spells" array.  
+
+public Spell cast(int n){
+    return this.spells[n-1];
+  }
+  
     Include an interface (seperately) for the Spell class to insure your "cast" method will interact with the class.
+    
+    public interface HahaItsme{
+    public Spell cast(int n);
+  }
 C.  Write a "hello" method that prints an introduction stating the name of the Wizard.
+
+public void hello(){
+    System.out.println("Hello, my name is " + this.name + ", I'm a wizard.");
+  }
 D.  Write a main method for the Wizard class.  In it construct a wizard with name "Harry Poppins".  Use the hello() method.
+
+ public static void main(String[] args){
+    Wizard Itsme = new Wizard("Harry Poppins");
+    Itsme.hello();
+  }
+  
