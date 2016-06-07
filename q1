@@ -43,4 +43,4 @@ D.  Write a main method for the Wizard class.  In it construct a wizard with nam
     Wizard Itsme = new Wizard("Harry Poppins");
     Itsme.hello();
   }
-  
+  )
