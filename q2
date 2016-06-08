@@ -2,13 +2,38 @@
 
 A.  Explain what recursion is and when it is useful.
     Explain what the |termination step| and |recursion step| are in a recursive method.
+    
+    Recursion is when you put the function itself into the function itself
+    termination step is the first line of the loop that determine when the recursion stops.
+    Recursion step is the last line of the method that use the method itself in the loop itself.
 
 B.  Describe the difference between a Queue and a Stack.
+Queue---First in first out
+Stack---Last in first out
 
 C.  Write a class for an element doublely-linked list.
 
+public class DLnk{
+  
+  private Object payload;
+  private DLnk next;
+  private DLnk prev;
+  
+   public DLnk(DLnk next, DLnk prev, Object payload){
+    this.next = next;
+    this.prev=prev;
+    this.payload = payload;}
+    }
+
 D.  Explain what a Merkle Tree is.  
+    Merkle tree is a tree in which every non-leaf node is labelled with the hash of the labels or values of its child nodes. 
+    
     Describe the structure and purpose of a Merkle Tree.
+    they allow efficient and secure verification of the contents of large data structures.
+    
     What is the Merkle root?
+    Merkle root is the hash of all the hashes of all the transactions in the block.
+    
     What is the function of a certificate in this data structure?
+    It is way faster than other loops.
     
