@@ -1,18 +1,31 @@
 333333333
 
 A.  Explain how digital signature works with public/private keypairs.
+Public keypair is the key code that could be seen from the public, while private keypair is the code that is private from other people.
 
 B.  Identify your favorite Java project this semester.  
+Cards
     Describe two things you learned by doing the project.
+I learned import would made things easier and use overload for the methods.
+
     Describe two ways in which the project could be improved or expanded.
+    We could graph it out and put it onto internet.
     
 C.  Describe two advantages of object-oriented programming.
+Easy and could be used moethan once
     Describe two disadvantages of object-oriented programming.
+    The files would be larger and therefore it would be slower.
     
 D.  Consider the following PYTHON code for the MNode class given below.
+
     What is the difference in the way Python and Java handle the declaration of datatypes?
+    ---Python dont need you to tell him what the datatype is, while java need.
+    
     Explain the difference in how constructors are written in Python vs Java.
+    ---Constructors havee to write longer and more neatly in java than python.
+    
     Which language do you prefer?  Explain why.
+    ---Python, because it chould write less neatly and less words.
 -------------------------------------------------------------------------------------
     import hashlib
 
